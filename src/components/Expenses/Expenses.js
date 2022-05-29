@@ -4,6 +4,7 @@ import React, { useState } from "react";
 import ExpensesList from "./ExpensesList";
 import Card from "../UI/Card";
 import ExpensesFilter from "./ExpensesFilter";
+import ExpensesChart from "./ExpensesChart";
 import "./Expenses.css";
 
 //RETURN ALL THE EXPENSES(EXPENSE ITEM) IN A COMPONENT CARD
@@ -28,7 +29,7 @@ const Expenses = (props) => {
           onChangeFilter={filterChangeHandler}
         />
         {/* we add unique key to each expense item so that it can be identified */}
-
+        <ExpensesChart expenses={filteredExpenses} />
         <ExpensesList items={filteredExpenses} />
 
         {/* and'&&' operator is used to check if both the conditions are true or not and it return the second part */}

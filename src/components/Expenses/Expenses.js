@@ -10,7 +10,7 @@ import "./Expenses.css";
 //RETURN ALL THE EXPENSES(EXPENSE ITEM) IN A COMPONENT CARD
 
 const Expenses = (props) => {
-  const [filteredYear, setFilteredYear] = useState("2020");
+  const [filteredYear, setFilteredYear] = useState("2022");
 
   const filterChangeHandler = (selectedYear) => {
     setFilteredYear(selectedYear);

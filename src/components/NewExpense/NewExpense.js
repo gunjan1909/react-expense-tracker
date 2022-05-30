@@ -29,8 +29,7 @@ const NewExpense = (props) => {
   const stopEditingHandler = () => {
     setIsEditing(false);
   };
-  console.log(isEditing);
-  console.log("hello");
+
   //RETURNING JSX
   return (
     <div className="new-expense">

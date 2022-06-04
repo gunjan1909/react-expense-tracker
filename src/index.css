@@ -31,7 +31,7 @@ body {
 }
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #00000073;
+  background: #0b0b0b73;
   border-radius: 10px;
   background-clip: padding-box;
   padding: 1px !important;
